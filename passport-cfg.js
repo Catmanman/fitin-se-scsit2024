@@ -22,7 +22,7 @@ function initialize(passport, usersDb) {
             }
         });
     }
-
+//qyfygqwouygqwouvcvqwge2   
     passport.use(new LocalStrategy({ usernameField: 'email' }, authenticateUser))
     passport.serializeUser((user, done) => done(null, user.id))
     passport.deserializeUser((id, done) => {
